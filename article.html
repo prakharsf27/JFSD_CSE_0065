@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dainik Jagran</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            background-color: antiquewhite;
+            text-align: center;
+            padding: 20px;
+            margin: 0;
+            font-size: 28px;
+        }
+
+        .news-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .news-item {
+            background: white;
+            padding: 20px;
+            border: 3px solid #333;
+            border-radius: 10px;
+            width: 300px;
+            transition: transform 0.3s;
+        }
+
+        .news-item:hover {
+            transform: scale(1.05);
+        }
+
+        u {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Dainik Jagran</h1>
+    <div class="news-container">
+        <div class="news-item" id="a">
+            <u>NBA News</u>
+            <p>Cameron Brink's Off-Court Endeavors: LA Sparks rookie Cameron Brink is set to make her debut in the Sports Illustrated Swimsuit issue in May 2025. Despite her rookie season being cut short due to a torn ACL, Brink has remained active off the court, engaging in various modeling and ambassadorial roles.</p>
+        </div>
+        <div class="news-item" id="b">
+            <u>CSK</u>
+            <p>As of February 11, 2025, the Chennai Super Kings (CSK) are actively preparing for the upcoming 2025 Indian Premier League (IPL) season. CSK retained five key players: Ruturaj Gaikwad (Captain), MS Dhoni, Ravindra Jadeja, Shivam Dubey, Matheesha Pathirana.</p>
+        </div>
+        <div class="news-item" id="c">
+            <u>Aero India 2025</u>
+            <p>The biennial Aero India 2025 air show commenced in Bengaluru, focusing on enhancing India's defense manufacturing capabilities and increasing exports. Defense Minister Rajnath Singh highlighted that domestic defense production is projected to exceed ₹1.25 trillion ($14.24 billion) by the fiscal year ending in March, with exports reaching a record ₹210 billion.</p>
+        </div>
+    </div>
+</body>
+</html>
