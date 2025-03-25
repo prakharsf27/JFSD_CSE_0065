@@ -1,0 +1,59 @@
+/* Fonts & base styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f1ee;
+  color: #2f2f2f;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'Georgia', serif;
+  color: #3a4d2d;
+}
+
+/* Buttons */
+button {
+  border: none;
+  transition: all 0.3s ease;
+}
+
+/* Earthy button theme */
+button.bg-green-600 {
+  background-color: #5b8c5a;
+}
+button.bg-green-600:hover {
+  background-color: #466c44;
+}
+
+/* Header */
+header {
+  background-color: #2f5233;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Product Cards */
+.product-card {
+  border: 1px solid #d2ccb6;
+  background-color: #fffaf4;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Category Titles */
+.category-title {
+  color: #705c41;
+  border-bottom: 2px solid #c2b280;
+  padding-bottom: 4px;
+  margin-bottom: 8px;
+}
+
+/* Landing Page Background Overlay */
+.landing-overlay {
+  background-color: rgba(0, 0, 0, 0.45);
+  padding: 2rem;
+  border-radius: 12px;
+}
